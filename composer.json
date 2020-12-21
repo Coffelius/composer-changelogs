@@ -9,12 +9,12 @@
         "composer-plugin-api": "^2.0",
         "mustache/mustache": "^v2.12.0",
         "seld/jsonlint": "^1.7.1",
-        "camspiers/json-pretty": "^1.0.2"
+        "camspiers/json-pretty": "^1.0.2",
+        "squizlabs/php_codesniffer": "^3.0"
     },
     "require-dev": {
         "composer/composer": "^2.0",
         "vaimo/composer-changelogs-proxy": "dev-master",
-        "squizlabs/php_codesniffer": "^2.9.2",
         "phpcompatibility/php-compatibility": "^9.1.1",
         "phpmd/phpmd": "^2.6.0",
         "phpunit/phpunit": "^4.8.36",
