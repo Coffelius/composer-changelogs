@@ -40,6 +40,14 @@ class Plugin extends \Vaimo\ComposerChangelogs\Plugin
         parent::activate($composer, $io);
     }
 
+    public function deactivate(\Composer\Composer $composer, \Composer\IO\IOInterface $cliIO)
+    {
+    }
+
+    public function uninstall(\Composer\Composer $composer, \Composer\IO\IOInterface $cliIO)
+    {
+    }
+
     private function bootstrapFileTree(\Vaimo\ComposerChangelogs\Composer\Context $composerContext, $namespacePrefix)
     {
         $composer = $composerContext->getLocalComposer();

@@ -55,6 +55,14 @@ class Plugin implements
         );
     }
 
+    public function deactivate(\Composer\Composer $composer, \Composer\IO\IOInterface $cliIO)
+    {
+    }
+
+    public function uninstall(\Composer\Composer $composer, \Composer\IO\IOInterface $cliIO)
+    {
+    }
+
     public static function getSubscribedEvents()
     {
         return array(
